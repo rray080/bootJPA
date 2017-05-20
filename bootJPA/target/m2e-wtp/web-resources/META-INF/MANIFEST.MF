@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: bootJPA
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: rray
+Implementation-Vendor-Id: com.ray
+Build-Jdk: 1.8.0_73
+Implementation-URL: http://projects.spring.io/spring-boot/bootJPA/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
