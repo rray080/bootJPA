@@ -9,8 +9,8 @@
 		<meta http-equiv="Cache-Control" content="no-cache">
 		<meta http-equiv="Expires" content="Sat,01 Dec 2001 00:00:00 GMT">
 		<title>Task manager | Home</title>
-		<link href="static/css/bootstrap.css" rel="stylesheet">
-		<link href="static/css/style.css" rel="stylesheet">
+		<link href="<c:url value='/static/css/style.css'/>" rel="stylesheet">
+		<link href="<c:url value='/static/css/bootstrap.css'/>" rel="stylesheet">
 		
 	</head>
 	<body>
@@ -97,9 +97,7 @@
 			</c:when>
 		</c:choose>
 		
-		
-		
-		<script src="static/js/bootstrap.js"></script>
-		<script src="static/js/jquery.min.js"></script>
+		<script src="<c:url value='/static/js/bootstrap.js' />"></script>
+		<script src="<c:url value='/static/js/jquery.min.js'/>"></script>
 	</body>
 </html>
